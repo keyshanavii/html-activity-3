@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
     <style>
+      body {
+        margin: auto;
+        margin-top: 20px;
+        width: 1000px;
+      }
       table {
-        width: 50%;
+        width: 100%;
         border-collapse: collapse;
-        margin-bottom: 20px;
+        margin-top: 20px;
       }
       th,
       td {
@@ -19,55 +24,87 @@
       th {
         background-color: grey;
       }
-      button{
+      a {
         margin-bottom: 20px;
+        border: 10px;
+        background-color: grey;
+        border-radius: 1%;
+        text-decoration: none;
       }
     </style>
   </head>
   <body>
     <h2>Menu Makanan</h2>
-    <button>Tambah</button>
+    <a href="tambah.html"><button>Tambah</button></a>
     <table>
       <thead>
         <tr>
           <th>No</th>
-          <th>Nama</th>
-          <th>Harga</th>
-          <th>Gambar</th>
+          <th>Nama Barang</th>
+          <th>Kode Barang</th>
+          <th>Tanggal Masuk</th>
+          <th>Tanggal Expired</th>
+          <th>Jumlah Stock</th>
+          <th>Harga Beli</th>
+          <th>Harga Jual</th>
+          <th>Aksi</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td>1</td>
-          <td>Seblak</td>
-          <td>Rp 15.000</td>
-          <td>
-            <img src="seblak.jpeg" width="130" />
-          </td>
+          <td>O.TWO.O Primer</td>
+          <td>1OTWOO</td>
+          <td>04-09-2024</td>
+          <td>04-09-2030</td>
+          <td>50</td>
+          <td>Rp 62.700</td>
+          <td>Rp 65.000</td>
+          <td><button>Edit</button><button>Delete</button></td>
         </tr>
         <tr>
           <td>2</td>
-          <td>Chicken spicy</td>
-          <td>Rp 20.000</td>
-          <td>
-            <img src="chickenspc.jpeg" width="130" />
-          </td>
+          <td>O.TWO.O Mascara</td>
+          <td>2OTWOO</td>
+          <td>04-09-2024</td>
+          <td>04-09-2030</td>
+          <td>70</td>
+          <td>Rp 46.000</td>
+          <td>Rp 50.000</td>
+          <td><button>Edit</button><button>Delete</button></td>
         </tr>
         <tr>
           <td>3</td>
-          <td>Mie angel</td>
-          <td>Rp 12.000</td>
-          <td>
-            <img src="mieangel.jpeg" width="130" />
-          </td>
+          <td>O.TWO.O Liptint</td>
+          <td>3OTWOO</td>
+          <td>04-09-2024</td>
+          <td>04-09-2030</td>
+          <td>77</td>
+          <td>Rp 28.500</td>
+          <td>Rp 30.000</td>
+          <td><button>Edit</button><button>Delete</button></td>
         </tr>
         <tr>
           <td>4</td>
-          <td>Es teh</td>
-          <td>Rp 4.000</td>
-          <td>
-            <img src="esteh.jpeg" width="130" />
-          </td>
+          <td>O.TWO.O Eyeliner</td>
+          <td>4OTWOO</td>
+          <td>04-09-2024</td>
+          <td>04-09-2030</td>
+          <td>70</td>
+          <td>Rp 53.200</td>
+          <td>Rp 55.000</td>
+          <td><button>Edit</button><button>Delete</button></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>O.TWO.O Contour</td>
+          <td>5OTWOO</td>
+          <td>04-09-2024</td>
+          <td>04-09-2030</td>
+          <td>62</td>
+          <td>Rp 50.350</td>
+          <td>Rp 53.000</td>
+          <td><button>Edit</button><button>Delete</button></td>
         </tr>
       </tbody>
     </table>
